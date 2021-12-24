@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  height: 100vh;
+
+  overflow-x: hidden;
+  margin: 0;
+  flex-direction: column;
+}
+
+.header {
+  height: 100px;
+  background-color: #343a40;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  display: flex;
+  padding: 20px;
+}
+
+.header input {
+  height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30vh;
+}
+
+.header h1 {
+  color: #eb6f4c
+}
+
+.container-1 {
+  display: flex;
+  flex: 3;
+  height: 300px;
+  padding: 20px;
+}
+
+.location {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.location .high-low {
+  display: flex;
+}
+
+.location .high-low p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.weather {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.weather div {
+  margin: 10px;
+}
+
+.container-2 {
+  background-color: #343a40;
+  padding: 20px;
+  height: 150px;
+  align-items: center;
+}
+
+.container-2 .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: white;
+  justify-content: space-around;
+}
+
+.table {
+  padding: 20px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.table-header * {
+  width: calc(100% / 5);
+}
+
+.table-body div {
+  display: flex;
+
+  padding: 10px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.table-body div * {
+  width: calc(100% /5);
+  text-transform: capitalize;
+}
+
