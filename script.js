@@ -11,7 +11,7 @@ const table = document.querySelector(".table-body");
 
 let city = "London";
 const APIKEY = "4fbbc083a194648d84f044ca33381cb6";
-const URLString = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKEY}&units=metric`;
+const URLString = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKEY}&units=metric`;
 
 async function getData(url) {
   const response = await fetch(url);
